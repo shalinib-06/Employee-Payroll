@@ -6,5 +6,5 @@ def calculate_salary(basic_pay):
     net_salary = total_salary - tax
     return net_salary
 
-basic_pay = float(input("Enter amount: "))
+basic_pay = float(input("Enterthe basic salary: "))
 print(f"Net salary: ₹{calculate_salary(basic_pay)}")
